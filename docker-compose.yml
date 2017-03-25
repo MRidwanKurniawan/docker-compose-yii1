@@ -1,0 +1,32 @@
+version: '2'
+
+volumes:
+  mysql_data:
+    driver: local
+
+services:
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - "mysql_data:/var/lib/mysql"
+    ports:
+      - "3306:3306"
+    environment:
+      - "MYSQL_ROOT_PASSWORD=pass"
+
+  memcached:
+    image: memcached
+    mem_limit: 64M
+
+  php:
+    image: yoshz/apache-php-dev:7.0
+    hostname: php
+    ports:
+      - "2022:22"
+      - "80:80"
+      - "35729:35729"
+    volumes:
+      - "./configs/apache2:/etc/apache2/sites-enabled"
+      - "./html:/var/www"
+
+
