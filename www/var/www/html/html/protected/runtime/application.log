@@ -1,0 +1,1853 @@
+2015/11/16 04:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pertemuan9/index.php?r=gii
+---
+2015/11/16 04:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tampilKota".' in C:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('tampilKota')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilKota')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilKota')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilKota
+---
+2015/11/16 04:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tampilKota".' in C:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('tampilKota')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilKota')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilKota')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilKota
+---
+2015/11/16 04:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tampilKota".' in C:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('tampilKota')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilKota')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilKota')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilKota
+---
+2015/11/16 04:45:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilKota')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilKota')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilKota
+---
+2015/11/16 04:45:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilKota')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilKota')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilKota
+---
+2015/11/16 04:46:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilKota')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilKota')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilKota
+---
+2015/11/16 04:46:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilKota')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilKota')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilKota
+---
+2015/11/16 05:13:10 [error] [php] Use of undefined constant style - assumed 'style' (C:\xampp\htdocs\pertemuan9\protected\views\kotaDao\_form.php:37)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(869): KotaDaoController->renderFile()
+#1 C:\xampp\htdocs\pertemuan9\protected\views\kotaDao\create.php(18): KotaDaoController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(95): KotaDaoController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(869): KotaDaoController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(782): KotaDaoController->renderPartial()
+#6 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php(96): KotaDaoController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaDaoController->actionCreate()
+#8 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): KotaDaoController->runAction()
+#10 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): KotaDaoController->filterAccessControl()
+#13 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\framework\web\CController.php(265): KotaDaoController->runActionWithFilters()
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(282): KotaDaoController->run()
+#17 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=kotaDao/create
+in C:\xampp\htdocs\pertemuan9\protected\views\kotaDao\_form.php (37)
+in C:\xampp\htdocs\pertemuan9\protected\views\kotaDao\create.php (18)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php (96)
+2015/11/16 05:20:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id='2'' at line 1. The SQL statement executed was: update kota set propinsi_id=:prop_id, nama_kota=:nama_kota, where id=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php (124)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 05:23:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: delete from kota where id=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 05:23:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: delete from kota where id=:id' in C:\xampp\htdocs\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php(147): CDbCommand->execute()
+#1 [internal function]: KotaDaoController->actionDelete('2')
+#2 C:\xampp\htdocs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(KotaDaoController), Array)
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(KotaDaoController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(1116): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('delete')
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kotaDao/delete')
+#17 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pertemuan9/index.php?ajax=kota-grid&id=2&r=kotaDao%2Fdelete
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kotaDao/admin
+---
+2015/11/16 05:24:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: delete from kota where id=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 05:24:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: delete from kota where id=:id' in C:\xampp\htdocs\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php(147): CDbCommand->execute()
+#1 [internal function]: KotaDaoController->actionDelete('1')
+#2 C:\xampp\htdocs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(KotaDaoController), Array)
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(KotaDaoController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(1116): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('delete')
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kotaDao/delete')
+#17 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pertemuan9/index.php?ajax=kota-grid&id=1&r=kotaDao%2Fdelete
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kotaDao/admin
+---
+2015/11/16 05:24:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: delete from kota where id=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 05:24:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: delete from kota where id=:id' in C:\xampp\htdocs\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaDaoController.php(147): CDbCommand->execute()
+#1 [internal function]: KotaDaoController->actionDelete('1')
+#2 C:\xampp\htdocs\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(KotaDaoController), Array)
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(KotaDaoController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(1116): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('delete')
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kotaDao/delete')
+#17 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/pertemuan9/index.php?ajax=kota-grid&id=1&r=kotaDao%2Fdelete
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kotaDao/admin
+---
+2015/11/16 07:09:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "tampilkan".' in C:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('tampilkan')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilkan')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/tampilkan')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/tampilkan
+---
+2015/11/16 07:10:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilkan')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kotaDao/tampilk...')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kotaDao/tampilkan
+---
+2015/11/16 07:10:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('tampilkan')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kotaDao/tampilk...')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kotaDao/tampilkan
+---
+2015/11/16 07:36:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pertemuan9.tblpegawai' doesn't exist. The SQL statement executed was: INSERT INTO `TblPegawai` (`nip`, `nama`, `alamat`, `tanggal_lahir`, `agama`) VALUES (:nip, :nama, :alamat, :tanggal_lahir, :agama).
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (82)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 07:36:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pertemuan9.tblpegawai' doesn't exist. The SQL statement executed was: INSERT INTO `TblPegawai` (`nip`, `nama`, `alamat`, `tanggal_lahir`, `agama`) VALUES (:nip, :nama, :alamat, :tanggal_lahir, :agama)' in C:\xampp\htdocs\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(82): CDbCommand->insert('TblPegawai', Array)
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionCreate()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('tblPegawai/crea...')
+#13 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai/create
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=tblPegawai/create
+---
+2015/11/16 07:43:13 [error] [php] Undefined variable: nip (C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php:132)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#3 C:\xampp\htdocs\framework\web\CController.php(1116): CFilterChain->run()
+#4 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterPostOnly()
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#9 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#13 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?ajax=tbl-pegawai-grid&id=13056&r=tblPegawai%2Fdelete
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (132)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 07:43:35 [error] [php] Undefined variable: nip (C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php:132)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#3 C:\xampp\htdocs\framework\web\CController.php(1116): CFilterChain->run()
+#4 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterPostOnly()
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#9 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#13 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?ajax=tbl-pegawai-grid&id=13056&r=tblPegawai%2Fdelete
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (132)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "GII".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('GII')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pertemuan9/index.php?r=GII
+---
+2015/11/16 08:25:26 [error] [php] Undefined index: TblPegawai (C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php:73)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiDaoController->runAction()
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiDaoController->filterAccessControl()
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiDaoController->runActionWithFilters()
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiDaoController->run()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawaiDao/create
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (73)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:50 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:57 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:35:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:36:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/11/16 08:37:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update tbl_pegawai set nama=:nama, alamat=:alamat, tanggal_lahir=:tanggal_lahir,agama=:agama where nip=:id.
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiDaoController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 05:36:53 [error] [php] include(AdminMenu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): TblPegawaiController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): TblPegawaiController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): TblPegawaiController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(162): TblPegawaiController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionAdmin()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai/admin
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (162)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 05:36:57 [error] [php] include(AdminMenu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): KotaController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): KotaController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): KotaController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): KotaController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaController.php(152): KotaController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionAdmin()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): KotaController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): KotaController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): KotaController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): KotaController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=kota/admin
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\KotaController.php (152)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 05:37:10 [error] [php] include(AdminMenu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): TblPegawaiController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): TblPegawaiController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): TblPegawaiController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 05:37:55 [error] [php] include(Admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): TblPegawaiController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): TblPegawaiController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): TblPegawaiController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 05:38:02 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): TblPegawaiController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): TblPegawaiController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): TblPegawaiController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:26:55 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): TblPegawaiController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): TblPegawaiController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): TblPegawaiController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:28:30 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=user
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:28:35 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=user
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:28:37 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): TblPegawaiController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): TblPegawaiController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): TblPegawaiController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:28:37 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): TblPegawaiController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): TblPegawaiController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): TblPegawaiController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:29:31 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=User
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:29:38 [error] [php] include(admin.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(22): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=user
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:30:16 [error] [php] include(AdminMenu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(21): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=user
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (21)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:30:16 [error] [php] include(AdminMenu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(21): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=user
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (21)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:30:17 [error] [php] include(AdminMenu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(21): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=user
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (21)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:30:17 [error] [php] include(AdminMenu.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\YiiBase.php(303): class_exists()
+#2 C:\xampp\htdocs\framework\web\CWidgetFactory.php(146): import()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(180): UserController->createWidget()
+#5 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(21): UserController->widget()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#9 C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php(128): UserController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#11 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#13 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#20 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=user
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (21)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\UserController.php (128)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/21 07:40:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=site/login
+---
+2015/12/21 07:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cerate".' in C:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('cerate')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('cerate')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/cerate')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pertemuan9/index.php?r=user/cerate
+---
+2015/12/21 08:16:29 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.admin" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CWebUser.php(146): CComponent->__get('admin')
+#1 C:\xampp\htdocs\pertemuan9\protected\views\layouts\main.php(38): CWebUser->__get('admin')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 C:\xampp\htdocs\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(214): COutputProcessor->run()
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(33): CBaseController->endContent()
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaController.php(137): CController->render('index', Array)
+#14 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionIndex()
+#15 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/index')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/index
+HTTP_REFERER=http://localhost/pertemuan9/index.php
+---
+2015/12/21 08:16:43 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.yuli" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CWebUser.php(146): CComponent->__get('yuli')
+#1 C:\xampp\htdocs\pertemuan9\protected\views\layouts\main.php(38): CWebUser->__get('yuli')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 C:\xampp\htdocs\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(214): COutputProcessor->run()
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(33): CBaseController->endContent()
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaController.php(137): CController->render('index', Array)
+#14 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionIndex()
+#15 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/index')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/index
+HTTP_REFERER=http://localhost/pertemuan9/index.php
+---
+2015/12/21 08:16:44 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.yuli" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CWebUser.php(146): CComponent->__get('yuli')
+#1 C:\xampp\htdocs\pertemuan9\protected\views\layouts\main.php(38): CWebUser->__get('yuli')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 C:\xampp\htdocs\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(214): COutputProcessor->run()
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(33): CBaseController->endContent()
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaController.php(137): CController->render('index', Array)
+#14 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionIndex()
+#15 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/index')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/index
+HTTP_REFERER=http://localhost/pertemuan9/index.php
+---
+2015/12/21 08:16:44 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.yuli" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CWebUser.php(146): CComponent->__get('yuli')
+#1 C:\xampp\htdocs\pertemuan9\protected\views\layouts\main.php(38): CWebUser->__get('yuli')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 C:\xampp\htdocs\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(214): COutputProcessor->run()
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(33): CBaseController->endContent()
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaController.php(137): CController->render('index', Array)
+#14 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionIndex()
+#15 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/index')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/index
+HTTP_REFERER=http://localhost/pertemuan9/index.php
+---
+2015/12/21 08:16:44 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.yuli" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CWebUser.php(146): CComponent->__get('yuli')
+#1 C:\xampp\htdocs\pertemuan9\protected\views\layouts\main.php(38): CWebUser->__get('yuli')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#6 C:\xampp\htdocs\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(214): COutputProcessor->run()
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(308): CBaseController->endWidget('CContentDecorat...')
+#9 C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php(33): CBaseController->endContent()
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\pertemuan9\protected\controllers\KotaController.php(137): CController->render('index', Array)
+#14 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionIndex()
+#15 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#18 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#22 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/index')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/index
+HTTP_REFERER=http://localhost/pertemuan9/index.php
+---
+2015/12/21 08:17:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kota/index
+---
+2015/12/21 08:17:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('propinsi/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=propinsi/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kota/index
+---
+2015/12/21 08:17:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('tblPegawai/admi...')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kota/index
+---
+2015/12/21 08:18:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('kota/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=kota/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kota/index
+---
+2015/12/21 08:21:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('propinsi/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=propinsi/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=tblPegawai/index
+---
+2015/12/21 08:22:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('propinsi/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=propinsi/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=tblPegawai/index
+---
+2015/12/21 08:22:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('propinsi/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=propinsi/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kota/admin
+---
+2015/12/21 08:22:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('propinsi/admin')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=propinsi/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=kota/admin
+---
+2015/12/21 08:23:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('tblPegawai/admi...')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan9\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai/admin
+HTTP_REFERER=http://localhost/pertemuan9/index.php?r=propinsi/admin
+---
+2015/12/21 08:41:01 [error] [php] Use of undefined constant level - assumed 'level' (C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#1 C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#5 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan9\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan9/index.php?r=tblPegawai/index
+in C:\xampp\htdocs\pertemuan9\protected\views\layouts\column2.php (23)
+in C:\xampp\htdocs\pertemuan9\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan9\index.php (13)
+2015/12/22 05:23:42 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pertemuan15\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(784): KotaController->renderFile()
+#1 C:\xampp\htdocs\pertemuan15\protected\controllers\KotaController.php(152): KotaController->render()
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionAdmin()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): KotaController->runAction()
+#5 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): KotaController->filterAccessControl()
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(265): KotaController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(282): KotaController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan15\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan15/index.php?r=kota/admin
+in C:\xampp\htdocs\pertemuan15\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan15\protected\controllers\KotaController.php (152)
+in C:\xampp\htdocs\pertemuan15\index.php (13)
+2015/12/22 05:24:25 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pertemuan15\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(784): KotaController->renderFile()
+#1 C:\xampp\htdocs\pertemuan15\protected\controllers\KotaController.php(152): KotaController->render()
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): KotaController->actionAdmin()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): KotaController->runAction()
+#5 C:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): KotaController->filterAccessControl()
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(265): KotaController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(282): KotaController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan15\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan15/index.php?r=kota/admin
+in C:\xampp\htdocs\pertemuan15\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan15\protected\controllers\KotaController.php (152)
+in C:\xampp\htdocs\pertemuan15\index.php (13)
+2015/12/27 16:05:01 [error] [exception.CException] exception 'CException' with message 'Property "User.level" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('level')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('level')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(User), 'level')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(User), 'level', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(User), 'level', Array)
+#5 C:\xampp\htdocs\pertemuan14\protected\views\user\_search.php(36): CActiveForm->textField(Object(User), 'level')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\pertemuan14\protected\views\user\admin.php(40): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\pertemuan14\protected\controllers\UserController.php(143): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=site/login
+---
+2015/12/27 16:06:38 [error] [exception.CException] exception 'CException' with message 'Property "User.level" is not defined.' in C:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('level')
+#1 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('level')
+#2 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(User), 'level')
+#3 C:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(User), 'level', Array)
+#4 C:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(User), 'level', Array)
+#5 C:\xampp\htdocs\pertemuan14\protected\views\user\_search.php(36): CActiveForm->textField(Object(User), 'level')
+#6 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\pertemuan14\protected\views\user\admin.php(40): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\pertemuan14\protected\controllers\UserController.php(143): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#26 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=site/login
+---
+2015/12/27 16:10:31 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): UserController->renderFile()
+#1 C:\xampp\htdocs\pertemuan14\protected\controllers\UserController.php(143): UserController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): UserController->actionAdmin()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan14\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+in C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan14\protected\controllers\UserController.php (143)
+in C:\xampp\htdocs\pertemuan14\index.php (13)
+2015/12/27 16:10:46 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(288): CAccessRule->isExpressionMatched()
+#1 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed()
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\pertemuan14\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan14/index.php?r=user/create
+in C:\xampp\htdocs\pertemuan14\index.php (13)
+2015/12/27 16:11:58 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): KotaController->renderFile()
+#1 C:\xampp\htdocs\pertemuan14\protected\controllers\KotaController.php(137): KotaController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): KotaController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): KotaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): KotaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): KotaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): KotaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan14\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan14/index.php?r=kota/index
+in C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan14\protected\controllers\KotaController.php (137)
+in C:\xampp\htdocs\pertemuan14\index.php (13)
+2015/12/27 16:12:00 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): KotaController->renderFile()
+#1 C:\xampp\htdocs\pertemuan14\protected\controllers\KotaController.php(137): KotaController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): KotaController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): KotaController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): KotaController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): KotaController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): KotaController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan14\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan14/index.php?r=kota/index
+in C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan14\protected\controllers\KotaController.php (137)
+in C:\xampp\htdocs\pertemuan14\index.php (13)
+2015/12/27 16:12:01 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(784): TblPegawaiController->renderFile()
+#1 C:\xampp\htdocs\pertemuan14\protected\controllers\TblPegawaiController.php(147): TblPegawaiController->render()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): TblPegawaiController->actionIndex()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): TblPegawaiController->runAction()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): TblPegawaiController->filterAccessControl()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(265): TblPegawaiController->runActionWithFilters()
+#11 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): TblPegawaiController->run()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\pertemuan14\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan14/index.php?r=tblPegawai/index
+in C:\xampp\htdocs\pertemuan14\protected\views\layouts\column2.php (22)
+in C:\xampp\htdocs\pertemuan14\protected\controllers\TblPegawaiController.php (147)
+in C:\xampp\htdocs\pertemuan14\index.php (13)
+2015/12/27 16:14:39 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\yii\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(288): CAccessRule->isExpressionMatched()
+#1 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed()
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\pertemuan14\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan14/index.php?r=user/update&id=1
+in C:\xampp\htdocs\pertemuan14\index.php (13)
+2015/12/27 16:17:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=kota/index
+---
+2015/12/27 16:18:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=kota/index
+---
+2015/12/27 16:18:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:49:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:51:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:51:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:51:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:52:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:52:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:55:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:56:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:56:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:57:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:57:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:57:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 16:58:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=user/create
+---
+2015/12/27 17:03:51 [error] [php] include(Mahasiswa.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(165): model()
+#2 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(87): CActiveDataProvider->getModel()
+#3 C:\xampp\htdocs\pertemuan14\protected\controllers\MahasiswaController.php(126): CActiveDataProvider->__construct()
+#4 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): MahasiswaController->actionIndex()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): MahasiswaController->runAction()
+#7 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): MahasiswaController->filterAccessControl()
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii\framework\web\CController.php(265): MahasiswaController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): MahasiswaController->run()
+#14 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\pertemuan14\index.php(13): CWebApplication->run()
+REQUEST_URI=/pertemuan14/index.php?r=mahasiswa/index
+in C:\xampp\htdocs\pertemuan14\protected\controllers\MahasiswaController.php (126)
+in C:\xampp\htdocs\pertemuan14\index.php (13)
+2015/12/27 17:05:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=mahasiswa/index
+---
+2015/12/27 17:06:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+HTTP_REFERER=http://localhost/pertemuan14/index.php?r=mahasiswa/index
+---
+2015/12/27 17:06:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('mahasiswa/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=mahasiswa/admin
+---
+2015/12/27 17:26:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\pertemuan14\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/pertemuan14/index.php?r=user/admin
+---

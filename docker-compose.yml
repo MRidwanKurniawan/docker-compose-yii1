@@ -1,32 +1,35 @@
-version: '2'
+nginx:
+  container_name: nginx
+  image: nginx
+  ports:
+    - "80:80"
+  volumes:
+    - ./nginx/etc/nginx:/etc/nginx
+    - ./www/var/www/html:/var/www/html
+  links:
+    - php
 
-volumes:
-  mysql_data:
-    driver: local
+php:
+  container_name: php
+  build: ./php
+  ports:
+    - "9000:9000"
+  volumes:
+    - ./www/var/www/html:/var/www/html
+  links:
+    - mysql
 
-services:
-  mysql:
-    image: mysql:5.7
-    volumes:
-      - "mysql_data:/var/lib/mysql"
-    ports:
-      - "3306:3306"
-    environment:
-      - "MYSQL_ROOT_PASSWORD=pass"
-
-  memcached:
-    image: memcached
-    mem_limit: 64M
-
-  php:
-    image: yoshz/apache-php-dev:7.0
-    hostname: php
-    ports:
-      - "2022:22"
-      - "80:80"
-      - "35729:35729"
-    volumes:
-      - "./configs/apache2:/etc/apache2/sites-enabled"
-      - "./html:/var/www"
-
-
+mysql:
+  container_name: mysql
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    #- MYSQL_ROOT_PASSWORD
+    - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    - MYSQL_USER=admin
+    - MYSQL_PASSWORD=admin
+    - MYSQL_DATABASE=test
+  volumes:
+    - ./mysql/var/lib/mysql:/var/lib/mysql
+    - ./mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
